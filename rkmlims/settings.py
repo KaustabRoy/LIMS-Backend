@@ -81,9 +81,9 @@ WSGI_APPLICATION = 'rkmlims.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'rkmlimsdb',
-        'USER': 'root',
-        'PASSWORD': 'LapDB13',
+        'NAME': '<mysql database name>',
+        'USER': '<mysql server user name>',
+        'PASSWORD': '<mysql server password>',
         'HOST': 'localhost',
         'PORT': 3306,
     }
